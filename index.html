@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Мое первое резюме, пробую его составить на основании материала усвоенного по базовому курсу Владилена Минина">
+    <meta name="keywords" content="resume, резюме, мое резюме, MeldyD, course, css, html">
+    <title>My resume</title>
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navi" >
+            <ul>
+              <li><a href="#">Кратко обо мне</a></li>  
+              <li><a href="#">Хобби</a></li>
+              <li><a href="#">Опыт</a></li>
+              <li><a href="#soc1">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <figure>
+        <img class="avatar" src="shadow.jpg"  alt="фото оформителя резюме" width="320">
+        <figcaption><h1>Дмитрий Мелеховец</h1></figcaption>
+        </figure>
+    <main>
+    <section>
+        <article>
+            <p>В настоящее время являюсь индивидуальным предпринимателем, произвожу корпусную мебель. 
+                Работал <strong><em>наемным руководителем предприятия.</em></strong></p>
+            <p>В настоящее время очень хочу изменить вид деятельности. <strong>Особенно интересна сфера IT.</strong> 14 марта 2022 года приступил к изучению HTML5, CSS.</p>
+        </article>
+        <article>
+            <div class="hobby">
+            <h2>Мои хобби</h2>
+            <ul>
+                <li>Охота</li>
+                <li>Практическая стрельба</li>
+                <li>Бенчрест</li>
+                <li>Работа с деревом</li>
+            </ul>
+            </div>
+        </article>
+        <article>
+        <h2>Опыт работы</h2>
+        
+            <table>
+                <thead>
+                    <tr>
+                        <th>Организация</th>
+                        <th>Должность</th>
+                        <th>Период работы</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Индивидуальный предприниматель</td>
+                        <td>Владелец</td>
+                        <td>2018 - н.в.</td>
+                    </tr>
+                    <tr>
+                        <td>ЧП "Еще контора"</td>
+                        <td>Коммерческий директор</td>
+                        <td>2017 - 2018</td>
+                    </tr>
+                    <tr>
+                        <td>ОДО "Норм контора"</td>
+                        <td>Директор</td>
+                        <td>2015 - 2017</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "Cупер контора"</td>
+                        <td>Специалист по продаже</td>
+                        <td>2013 - 2015</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>    
+    </section>
+    <aside>
+    <h3>Связаться со мной</h3>
+    <form class="action">
+        <div>
+        <label for="name_g">Ваше имя:</label>
+        <input type="text" id="name_g" placeholder="Ведите имя">
+        </div>
+
+        <div>
+        <label for="email_g">Ваш email:</label>
+        <input type="email" id="email_g" placeholder="Ваш email">
+        </div>
+       
+        <div>
+        <label for="message_g">Ваше сообщение:</label>
+        <br>
+        <textarea id="message_g" cols="31" rows="10" placeholder="Введите сообщение..."></textarea>
+        </div>
+
+        
+    </form>
+    <button type="submit">Отправить!</button>
+    </aside>
+    </main>
+    <footer class="footer">
+        <h2 id="soc1">Список социальных сетей</h2>
+        <a href="https://github.com/MeldyD?tab=repositories" target="blank">GitHub</a>
+        <a href="#" target="blank">Instagram</a>
+        <a href="http://t.me/MDI_ST" target="blank">Telegram</a>
+        <a href="2_page.html" target="blank">Youtube</a>
+    </footer>
+    
+     
+</body>
+</html>

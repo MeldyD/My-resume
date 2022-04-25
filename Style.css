@@ -1,0 +1,114 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    padding: 0px;
+    margin: 20px;
+
+}
+
+figure {
+    
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    margin: 0;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.avatar {
+    border-radius: 10%;
+    border-style: inset;
+    border: rgba(251, 206, 177, alpha);
+    padding: 5px;
+    margin: 10px; 
+}
+
+.navi{
+    margin: 0 12px;
+}
+
+a {
+    color: #BCEBDD;
+    
+}
+
+.navi ul li{
+    
+    list-style-type: none;
+    display: inline-flex;
+    padding-right: 10px;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    /*background-color: #58709c;*/
+    border-radius: 5px;
+    
+    
+    
+}
+
+.hobby {
+    border: solid 5px #816a6a;
+    padding: 5px 5px;
+    margin: 15px 15px;
+}
+
+table {
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-spacing: 0;
+    
+}
+
+th {
+    background: #BCEBDD;
+    color: rgb(19, 18, 18);
+    text-shadow: 0 1px 1px #816a6a;
+    padding: 10px 20px;
+    
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    }
+    th:first-child, td:first-child {
+    text-align: center;
+    }
+    th:first-child {
+    border-top-left-radius: 10px;
+    }
+    th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+    }
+    td {
+    padding: 10px 20px;
+    background: #51b6cf;
+    }
+    tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+    }
+    tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+    }
+    tr td:last-child {
+    border-right: none;
+    }
+
+    .action {
+        display: flex;
+    }
+    
+ .footer {
+    border-bottom: 10px solid gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+}
